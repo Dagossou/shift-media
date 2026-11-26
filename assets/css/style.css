@@ -19,9 +19,9 @@
   --footer-air: 76px; /* breathing room under the footer on desktop, same on every page */
   --gap: 32px;
 
-  --r-lg: 12px;
-  --r-md: 10px;
-  --r-xl: 14px;
+  --r-lg: 8px;
+  --r-md: 6px;
+  --r-xl: 9px;
 
   --shadow: 0 6px 16px rgba(18, 38, 64, 0.08);
   --shadow-hover: 0 20px 40px rgba(18, 38, 64, 0.22);
@@ -129,6 +129,7 @@ button { font: inherit; cursor: pointer; }
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: 50% 30%; /* keep faces/heads in frame */
   transition: transform 0.3s var(--ease);
 }
 .card::after { /* bottom-to-top fade */
@@ -273,6 +274,23 @@ button { font: inherit; cursor: pointer; }
 button.card { font: inherit; color: inherit; border: 0; padding: 0; width: 100%; text-align: left; cursor: pointer; }
 .badge { cursor: pointer; }
 
+/* ---------- Lighter labels on Videography & Photography cards (less image covered) ---------- */
+.page--video .card::after, .page--photo .card::after { height: 52%; background: linear-gradient(to top, rgba(var(--navy), 0.75) 0%, rgba(var(--navy), 0.3) 50%, rgba(var(--navy), 0) 100%); }
+.page--video .card::before, .page--photo .card::before { height: 52%; }
+.page--video .card__label, .page--photo .card__label { padding: 12px 14px; }
+.page--video .card__title, .page--photo .card__title { font-size: 15px; font-weight: 800; }
+.page--video .card__cue, .page--photo .card__cue { font-size: 11px; }
+.page--video .featured .card__label, .page--photo .album-card--featured .card__label { padding: 18px 22px; }
+.page--video .featured .card__title, .page--photo .album-card--featured .card__title { font-size: 22px; }
+.page--video .featured .card__cue, .page--photo .album-card--featured .card__cue { font-size: 12px; }
+.page--video .play { padding: 9px 16px 9px 14px; font-size: 13px; gap: 8px; }
+.page--video .play svg { width: 10px; height: 10px; }
+.page--video .badge { top: 10px; left: 10px; font-size: 10px; padding: 4px 8px; }
+.page--video .contribution { padding: 14px; }
+.page--video .contribution__text { font-size: 12.5px; }
+.page--photo .album-card .card__title { font-size: 13px; line-height: 1.25; }
+.page--photo .album-card--featured .card__title { font-size: 22px; }
+
 /* ---------- Partners ("They trusted us") — continuous marquee ---------- */
 .partners { flex: none; display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .partners__label {
@@ -359,7 +377,7 @@ body.no-scroll { overflow: hidden; }
 .mosaic__row { display: flex; gap: 12px; }
 .mosaic__tile {
   position: relative; flex: none; overflow: hidden;
-  padding: 0; border: 0; border-radius: 6px;
+  padding: 0; border: 0; border-radius: 4px;
   background: #d9e3ec; cursor: zoom-in;
 }
 .mosaic__tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s var(--ease); }
