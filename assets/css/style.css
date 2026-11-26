@@ -1145,3 +1145,13 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__form { border-radius: 8px; }
 .cg__pill, .cg__submit, .cg__submit-wrap::before { border-radius: 6px; }
 @media (max-width: 639px) { .contact--glass { border-radius: 12px; } }
+
+/* Hero video v3: original height back; video fits top-to-bottom (no cropping of heads),
+   any side space filled with a soft blurred copy of the image */
+@media (min-width: 1024px) {
+  .page--home .hero-tilt > .hero-video { aspect-ratio: auto; height: max(330px, 50vh); }
+}
+.hero-video__backdrop { position: absolute; inset: -40px; z-index: -3; background-size: cover; background-position: center; filter: blur(28px) brightness(0.55) saturate(1.1); }
+.page--home .hero-video__poster { object-fit: contain; object-position: 50% 50%; }
+.page--home .hero-video__frame { height: 100%; width: auto; min-height: 0; aspect-ratio: 16 / 9; max-width: none; }
+@media (max-width: 1023px) { .page--home .hero-tilt > .hero-video { aspect-ratio: 16 / 9; } }
