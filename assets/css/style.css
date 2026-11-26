@@ -1082,5 +1082,5 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 }
 .page--home .hero-tilt > .hero-video { flex: none; width: 100%; aspect-ratio: 16 / 9; min-height: 0; }
 /* Hero a bit shorter (video still fills the box) */
-.page--home .hero-tilt > .hero-video { aspect-ratio: 2 / 1; }
+.page--home .hero-tilt > .hero-video { aspect-ratio: 2.3 / 1; }
 .page--home .hero-video__frame { width: 100%; height: auto; min-height: 0; }
