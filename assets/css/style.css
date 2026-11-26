@@ -1127,3 +1127,16 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .gear .gear__media { overflow: hidden; }
 .gear .gear__media img { object-fit: contain; transform: scale(1.35); }
 .gear:hover .gear__media img { transform: scale(1.45); }
+/* Contact: inner form card smaller, with more breathing room from the blue box edges */
+.contact--glass { padding: 30px 34px; }
+.cg__left { padding: 0 8px 0 0; }
+@media (min-width: 1024px) { .cg__form { justify-self: end; width: 100%; max-width: 370px; } }
+.cg__form { padding: 14px 18px 12px; }
+.cg__form-title { font-size: 16px; margin-bottom: 0; }
+.cg__field span { padding-top: 5px; font-size: 11.5px; }
+.cg__field input, .cg__field textarea { padding: 3px 0 5px; font-size: 13.5px; }
+.cg__field textarea { height: 26px; }
+.cg__submit-wrap { margin-top: 10px; }
+.cg__submit { padding: 8px 20px; font-size: 13px; }
+@media (max-width: 1023px) { .contact--glass { padding: 24px; } }
+@media (max-width: 639px) { .contact--glass { padding: 18px; } .cg__left { padding: 0; } }
