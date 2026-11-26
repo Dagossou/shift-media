@@ -1201,3 +1201,6 @@ html.eqm-open { overflow: hidden; }
 .gear__title { line-height: 1.35; flex: none; }
 .gear__desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 12px; line-height: 1.4; }
 .gear__info { gap: 4px; }
+/* Equipment photos supplied already framed: shown as-is, no zoom */
+.gear .gear__media img.gear__img--fit { transform: none; }
+.gear:hover .gear__media img.gear__img--fit { transform: scale(1.05); }
