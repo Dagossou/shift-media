@@ -160,7 +160,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Fire Praise 2026",
-  "detail": "A night of worship: live music, choir and a packed, joyful crowd."
+  "detail": "A night of worship in Lom\u00e9: live music, choir and a joyful crowd."
  },
  {
   "slug": "catalyze-launching-benin-2025",
@@ -287,7 +287,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "MIC 2026",
-  "detail": "Talks, panels and exchanges between leaders."
+  "detail": "Talks, panels and exchanges between leaders in Lom\u00e9."
  },
  {
   "slug": "ctbg-on-field-2025",
@@ -333,7 +333,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "CTBG 2025",
-  "detail": "Field visits to communities, children and local churches."
+  "detail": "On the field in Lom\u00e9 with communities, children and local churches."
  },
  {
   "slug": "ctbg-conference-and-outing-2026",
@@ -519,7 +519,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "CTBG 2026",
-  "detail": "Sessions, workshops and moments shared together."
+  "detail": "Conference and outing in Lom\u00e9: sessions, workshops and shared moments."
  },
  {
   "slug": "onehope-regional-conference-2026",
@@ -565,7 +565,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "OneHope 2026",
-  "detail": "Partners from across the region gathered in Lom\u00e9."
+  "detail": "OneHope\u2019s regional conference in Benin, bringing partners together."
  },
  {
   "slug": "influence-academy-master-class-ii",
@@ -761,7 +761,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass II",
-  "detail": "June 2026 training for influencers and content creators."
+  "detail": "Togo, June 2026. Inspiring speakers help young people grow their skills and leadership."
  },
  {
   "slug": "influence-academy-2026",
@@ -892,6 +892,6 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass III",
-  "detail": "September 2026 training for influencers and content creators."
+  "detail": "Togo, September 2026. Inspiring speakers help young people grow their skills and leadership."
  }
 ];
