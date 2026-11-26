@@ -918,3 +918,33 @@ a.contact__v:hover { color: var(--green); }
 .credits summary { cursor: pointer; font-weight: 700; color: var(--blue); }
 .credits ul { margin: 8px 0 0; padding-left: 18px; line-height: 1.6; }
 .credits a { text-decoration: underline; }
+
+/* ---------- Home v6 ---------- */
+@media (min-width: 1024px) {
+  .page--home { height: auto !important; min-height: 100vh; min-height: 100dvh; }
+  .page--home .hero-tilt { flex: none; height: max(420px, 66vh); }
+}
+.page--home .partners { margin-top: 44px; }
+.page--home-more { --gap: 64px; padding-top: 76px; }
+.hero-video__cta { padding: 7px 14px 7px 7px; font-size: 12.5px; gap: 8px; left: 18px; bottom: 16px; }
+.hero-video__play { width: 24px; height: 24px; }
+.hero-video__play svg { width: 9px; height: 9px; }
+
+/* Contact v4: centred, light, gradient border */
+.contact--v4 { display: block; text-align: center; padding: 40px 32px 38px; color: var(--blue); background:
+  linear-gradient(#fff, #fff) padding-box, linear-gradient(110deg, var(--green), var(--blue) 50%, var(--orange)) border-box;
+  border: 2px solid transparent; animation: none; }
+.contact--v4 .contact__eyebrow { margin: 0 0 8px; color: var(--green); }
+.contact--v4 .contact__title { margin: 0 auto; max-width: 760px; font-size: clamp(22px, 2.3vw, 30px); line-height: 1.2; color: var(--blue); }
+.contact--v4 .contact__title span { color: var(--orange-dark); }
+.contact__chips { margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.contact__chip { display: inline-flex; align-items: center; gap: 12px; padding: 10px 18px 10px 10px; border-radius: 999px; background: var(--bg); border: 1px solid rgba(31, 78, 121, 0.12); text-align: left; font-size: 15px; font-weight: 700; color: var(--blue); transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease), border-color 0.25s var(--ease); }
+.contact__chip small { display: block; font-size: 10px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--grey); }
+a.contact__chip:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--orange); }
+.contact__ic { width: 38px; height: 38px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: #fff; flex: none; }
+.contact__ic svg { width: 18px; height: 18px; }
+.contact__ic--orange { background: var(--orange); }
+.contact__ic--green { background: var(--green); }
+.contact__ic--blue { background: var(--blue); }
+@media (max-width: 1023px) { .page--home-more { --gap: 56px; padding-top: 60px; } }
+@media (max-width: 639px) { .contact--v4 { padding: 28px 18px; } .contact__chip { width: 100%; } .page--home .partners { margin-top: 32px; } }
