@@ -630,3 +630,10 @@ body.no-scroll { overflow: hidden; }
 }
 
 @media (min-width: 1024px) and (max-width: 1340px) { .member__cta .cta-long { display: none; } }
+
+/* Team cut-out portraits on a brand gradient */
+.member:has(.member__img) { background: radial-gradient(120% 90% at 50% 100%, #2a6aa0 0%, #1f4e79 45%, #12304d 100%); }
+.member:has(.member__img) .member__placeholder { display: none; }
+.member .member__img { object-fit: cover; object-position: 50% 8%; }
+.tilt--orange .member:has(.member__img) { background: radial-gradient(120% 90% at 50% 100%, #f39a3a 0%, #c86a12 45%, #7a3d07 100%); }
+.tilt--green .member:has(.member__img) { background: radial-gradient(120% 90% at 50% 100%, #3aa85a 0%, #1f7a3a 45%, #0f4a22 100%); }
