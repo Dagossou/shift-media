@@ -171,7 +171,7 @@ button { font: inherit; cursor: pointer; }
 .home-cards .card__cue { font-size: 14px; }
 
 /* ---------- Videography ---------- */
-.video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; flex: none; }
+.video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; flex: none; }
 .video-grid .card { height: 168px; }
 .featured { flex: 1 1 auto; min-height: 260px; max-height: 480px; border-radius: var(--r-xl); }
 .featured .card__label { padding: 32px 36px; align-items: center; }
@@ -347,11 +347,10 @@ body.no-scroll { overflow: hidden; }
   .home-cards .card { height: 250px; min-height: 0; }
   .home-cards .card__label { padding: 20px 22px; }
   .home-cards .card__title { font-size: 22px; }
-  .video-grid { gap: 16px; }
+  .video-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
   .video-grid .card { height: 150px; }
   .video-grid .card__label { padding: 16px 16px; }
   .video-grid .card__title { font-size: 18px; }
-  .video-grid .card__cue-text { display: none; }
   .featured { flex: none; height: 320px; min-height: 0; }
   .featured .card__label { padding: 24px 26px; }
   .featured .card__title { font-size: 28px; }
