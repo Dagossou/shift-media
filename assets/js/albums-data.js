@@ -554,5 +554,134 @@ window.SHIFT_ALBUMS = [
     "h": 753
    }
   ]
+ },
+ {
+  "slug": "influence-academy-2026",
+  "title": "Influence Academy 2026",
+  "year": "2026",
+  "featured": false,
+  "cover": "/assets/albums/influence-academy-2026/17.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/influence-academy-2026/03.jpg",
+    "w": 1112,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/01.jpg",
+    "w": 1600,
+    "h": 1145
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/04.jpg",
+    "w": 1144,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/02.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/05.jpg",
+    "w": 1205,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/08.jpg",
+    "w": 1600,
+    "h": 1112
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/06.jpg",
+    "w": 1106,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/09.jpg",
+    "w": 1600,
+    "h": 1112
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/07.jpg",
+    "w": 1256,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/10.jpg",
+    "w": 1600,
+    "h": 1134
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/11.jpg",
+    "w": 1071,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/12.jpg",
+    "w": 1600,
+    "h": 1260
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/13.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/17.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/14.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/18.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/15.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/19.jpg",
+    "w": 1600,
+    "h": 979
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/16.jpg",
+    "w": 1202,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/20.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/21.jpg",
+    "w": 1116,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/23.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/22.jpg",
+    "w": 1149,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-2026/24.jpg",
+    "w": 1600,
+    "h": 1135
+   }
+  ]
  }
 ];

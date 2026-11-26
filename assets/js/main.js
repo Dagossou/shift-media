@@ -47,6 +47,7 @@
   }
 
   var ordered = albums.filter(function (a) { return a.featured; }).concat(albums.filter(function (a) { return !a.featured; }));
+  grid.dataset.count = String(ordered.length);
   ordered.forEach(function (a) {
     var b = el('button', 'card album-card' + (a.featured ? ' album-card--featured' : ''), cardHTML(a, a.featured));
     b.type = 'button';
