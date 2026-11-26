@@ -872,3 +872,27 @@ a.contact__v:hover { color: var(--green); }
   .page--home-more .team__grid { grid-template-columns: 1fr 1fr; gap: 22px; }
   .contact__body { padding: 22px 20px; }
 }
+
+/* ---------- Home v5 ---------- */
+.page--home .header { margin-bottom: 14px; }
+.section-title { margin-bottom: 28px; }
+.purpose__word { font-size: clamp(44px, 4.6vw, 64px); bottom: -10px; right: -4px; -webkit-text-stroke: 1px rgba(31, 78, 121, 0.06); }
+.page--home-more .team__grid { grid-template-columns: repeat(6, minmax(0, 1fr)); justify-content: stretch; gap: 22px; }
+.contact { grid-template-columns: 0.9fr 1.1fr; }
+.contact__body { padding: 24px 34px; }
+.contact__eyebrow { margin-bottom: 6px; }
+.contact__title { font-size: clamp(20px, 1.9vw, 26px); }
+.contact__lead { display: none; }
+.contact__list { display: grid; grid-template-columns: repeat(3, auto); justify-content: space-between; gap: 12px 24px; margin-top: 16px; padding: 12px 0; border-bottom: 1px solid rgba(31, 78, 121, 0.12); }
+.contact__list li { flex-direction: column; align-items: flex-start; gap: 3px; padding: 0; border: 0; }
+.contact__v { font-size: 15px; }
+.contact__buttons { margin-top: 14px; }
+@media (max-width: 1023px) {
+  .page--home-more .team__grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .contact { grid-template-columns: 1fr; }
+}
+@media (max-width: 639px) {
+  .page--home-more .team__grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .contact__list { grid-template-columns: 1fr; }
+  .page--home .header { margin-bottom: 4px; }
+}
