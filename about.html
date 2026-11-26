@@ -42,7 +42,7 @@
     </section>
 
     <section class="team" aria-label="Our team">
-      <h2 class="team__title">Meet the team</h2>
+      <div class="team__head"><h2 class="team__title">Meet the team</h2><button class="eq-open" type="button" aria-haspopup="dialog">Our equipment <span aria-hidden="true">→</span></button></div>
       <div class="team__grid">
         <div class="tilt tilt--green">
           <a class="card member" href="https://www.linkedin.com/in/daniel-gossou/" target="_blank" rel="noopener" aria-label="Daniel Agossou, LinkedIn profile">
@@ -132,5 +132,23 @@
       </div>
     </footer>
   </main>
+  <div class="eq" role="dialog" aria-modal="true" aria-labelledby="eq-title" hidden>
+    <div class="eq__panel">
+      <div class="eq__top">
+        <div><h2 class="eq__title" id="eq-title">Our equipment</h2><p class="eq__lead">Professional gear for filming, photography, sound and live streaming.</p></div>
+        <button class="round-btn eq__close" type="button" aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+      </div>
+      <div class="eq__grid"><div class="eq__group"><h3 class="eq__cat">Cameras</h3><ul><li>Canon EOS R6</li><li>Canon EOS M50</li><li>Canon EOS Rebel T7</li><li>PTZ cameras ×3 <small>with remotes, chargers &amp; cables</small></li><li>PTZ joystick controller ×1</li></ul></div><div class="eq__group"><h3 class="eq__cat">Lenses</h3><ul><li>Canon EF 70–200mm</li><li>Canon RF 24–105mm</li><li>Canon RF 28–70mm</li><li>Canon RF 50mm</li><li>Canon RF 18–45mm</li></ul></div><div class="eq__group"><h3 class="eq__cat">Audio</h3><ul><li>Wireless FM microphones ×4 <small>with chargers &amp; cables</small></li><li>DJI Mic Mini ×2</li><li>Focusrite Scarlett 2i2 audio interface</li><li>Microphone stands ×2</li></ul></div><div class="eq__group"><h3 class="eq__cat">Live streaming</h3><ul><li>OSEE GoStream Deck switcher</li><li>8-port PoE network switch</li><li>Wireless HDMI transmitter</li><li>HDMI splitter (1 in / 4 out)</li><li>HDMI cables ×2</li><li>4G routers ×3</li></ul></div><div class="eq__group"><h3 class="eq__cat">Projection</h3><ul><li>Epson projector</li><li>Mini projector</li><li>Projection screen</li></ul></div><div class="eq__group"><h3 class="eq__cat">Lighting &amp; support</h3><ul><li>Spotlights ×4</li><li>LED panels ×2</li><li>Ring light</li><li>Light stands ×7</li><li>Camera tripods ×3</li></ul></div><div class="eq__group"><h3 class="eq__cat">Power</h3><ul><li>Battery chargers ×2</li><li>Power strips ×2</li><li>Long extension cables ×4</li></ul></div></div>
+    </div>
+  </div>
+  <script>
+  (function(){var m=document.querySelector('.eq'),o=document.querySelector('.eq-open'),c=m.querySelector('.eq__close');
+  function open(){m.hidden=false;requestAnimationFrame(function(){m.classList.add('is-open')});document.body.classList.add('no-scroll');c.focus();}
+  function close(){m.classList.remove('is-open');document.body.classList.remove('no-scroll');setTimeout(function(){m.hidden=true},250);o.focus();}
+  o.addEventListener('click',open);c.addEventListener('click',close);
+  m.addEventListener('click',function(e){if(e.target===m)close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden)close();});})();
+  </script>
+
 </body>
 </html>
