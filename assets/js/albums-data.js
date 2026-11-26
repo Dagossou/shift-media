@@ -556,6 +556,200 @@ window.SHIFT_ALBUMS = [
   ]
  },
  {
+  "slug": "influence-academy-master-class-ii",
+  "title": "Influence Academy Master Class II",
+  "year": "2026",
+  "featured": false,
+  "cover": "/assets/albums/influence-academy-master-class-ii/30.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/01.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/06.jpg",
+    "w": 1134,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/02.jpg",
+    "w": 1600,
+    "h": 1030
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/03.jpg",
+    "w": 1600,
+    "h": 1149
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/10.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/04.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/05.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/11.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/07.jpg",
+    "w": 1600,
+    "h": 1475
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/08.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/15.jpg",
+    "w": 1150,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/09.jpg",
+    "w": 1600,
+    "h": 1349
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/12.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/19.jpg",
+    "w": 1143,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/13.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/14.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/21.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/16.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/22.jpg",
+    "w": 994,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/17.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/18.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/23.jpg",
+    "w": 1029,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/20.jpg",
+    "w": 1600,
+    "h": 1280
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/24.jpg",
+    "w": 1600,
+    "h": 1177
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/28.jpg",
+    "w": 1092,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/25.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/26.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/31.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/27.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/29.jpg",
+    "w": 1600,
+    "h": 1088
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/32.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/30.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/33.jpg",
+    "w": 1600,
+    "h": 1102
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/36.jpg",
+    "w": 1355,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/34.jpg",
+    "w": 1600,
+    "h": 1066
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/37.jpg",
+    "w": 1066,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/influence-academy-master-class-ii/35.jpg",
+    "w": 1600,
+    "h": 1066
+   }
+  ]
+ },
+ {
   "slug": "influence-academy-2026",
   "title": "Influence Academy Master Class III",
   "year": "2026",
