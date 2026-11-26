@@ -1120,3 +1120,10 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__submit-wrap { margin-top: 12px; }
 .cg__submit { padding: 9px 22px; font-size: 13.5px; }
 .cg__note:empty { display: none; }
+/* Equipment: studio product shots on light grey */
+.gear .gear__media { background: #e5e5e5; }
+.gear .gear__media { bottom: 50px; }
+.gear::before { content: ''; position: absolute; inset: 0; background: #e5e5e5; }
+.gear .gear__media { overflow: hidden; }
+.gear .gear__media img { object-fit: contain; transform: scale(1.35); }
+.gear:hover .gear__media img { transform: scale(1.45); }
