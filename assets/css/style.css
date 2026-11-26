@@ -1161,3 +1161,4 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .gear .gear__media { bottom: 36px; }
 .gear__name { font-size: 12px; }
 @media (max-width: 1023px) { .gear__name { font-size: 11.5px; } .gear__qty { font-size: 11px; } }
+.gear:hover .gear__media img[style] { transform: scale(1.2) !important; }
