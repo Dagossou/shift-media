@@ -1059,3 +1059,5 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__field input, .cg__field textarea { border-bottom-color: rgba(255, 255, 255, 0.35); }
 .cg__text { color: rgba(255, 255, 255, 0.88); }
 .eq-chip { border-radius: 5px; }
+
+.cg__submit:disabled { opacity: .75; cursor: wait; }
