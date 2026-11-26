@@ -158,7 +158,9 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 1000
    }
-  ]
+  ],
+  "short": "Fire Praise 2026",
+  "detail": "A night of worship and praise: live music, choir and a packed, joyful crowd."
  },
  {
   "slug": "catalyze-launching-benin-2025",
@@ -222,7 +224,9 @@ window.SHIFT_ALBUMS = [
     "w": 1280,
     "h": 818
    }
-  ]
+  ],
+  "short": "Catalyze 2025",
+  "detail": "The launch of Catalyze in Benin by OneHope in 2025."
  },
  {
   "slug": "missional-impact-conference-2026",
@@ -281,7 +285,9 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 1101
    }
-  ]
+  ],
+  "short": "MIC 2026",
+  "detail": "Missional Impact Conference 2026: talks, panels and exchanges between leaders."
  },
  {
   "slug": "ctbg-on-field-2025",
@@ -325,7 +331,9 @@ window.SHIFT_ALBUMS = [
     "w": 1280,
     "h": 853
    }
-  ]
+  ],
+  "short": "CTBG 2025",
+  "detail": "CTBG on the field in 2025: visits to communities, children and local churches."
  },
  {
   "slug": "ctbg-conference-and-outing-2026",
@@ -509,7 +517,9 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 1156
    }
-  ]
+  ],
+  "short": "CTBG 2026",
+  "detail": "CTBG Conference and Outing 2026: sessions, workshops and moments shared together."
  },
  {
   "slug": "onehope-regional-conference-2026",
@@ -553,7 +563,9 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 753
    }
-  ]
+  ],
+  "short": "OneHope 2026",
+  "detail": "OneHope Regional Conference 2026: partners from across the region gathered in Lom\u00e9."
  },
  {
   "slug": "influence-academy-master-class-ii",
@@ -747,7 +759,9 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 1066
    }
-  ]
+  ],
+  "short": "Masterclass II",
+  "detail": "Influence Academy Master Class II (June 2026): training for influencers and content creators."
  },
  {
   "slug": "influence-academy-2026",
@@ -876,6 +890,8 @@ window.SHIFT_ALBUMS = [
     "w": 1600,
     "h": 1135
    }
-  ]
+  ],
+  "short": "Masterclass III",
+  "detail": "Influence Academy Master Class III (September 2026): training for influencers and content creators."
  }
 ];

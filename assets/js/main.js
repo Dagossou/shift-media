@@ -42,9 +42,12 @@
 
   function cardHTML(a, featured) {
     return '<img class="card__img" src="' + esc(a.cover) + '" alt="" loading="' + (featured ? 'eager' : 'lazy') + '">' +
-      '<span class="card__label"><span class="card__title">' + esc(a.title) + '</span>' +
+      '<span class="album-info"><span class="album-info__title">' + esc(a.title) + '</span>' +
+      '<span class="album-info__text">' + esc(a.detail || '') + '</span></span>' +
+      '<span class="card__label"><span class="card__title">' + esc(a.short || a.title) + '</span>' +
       '<span class="card__cue">' + (featured ? 'View album →' : '→') + '</span></span>';
   }
+
 
   var ordered = albums.filter(function (a) { return a.featured; }).concat(albums.filter(function (a) { return !a.featured; }));
   grid.dataset.count = String(ordered.length);

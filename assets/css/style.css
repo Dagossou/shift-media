@@ -291,6 +291,22 @@ button.card { font: inherit; color: inherit; border: 0; padding: 0; width: 100%;
 .page--photo .album-card .card__title { font-size: 13px; line-height: 1.25; }
 .page--photo .album-card--featured .card__title { font-size: 22px; }
 
+/* Album cards: short name at rest, full title + description on hover */
+.album-info {
+  position: absolute; inset: 0; z-index: 2;
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 14px 16px;
+  background: rgba(31, 78, 121, 0.93); color: #fff;
+  opacity: 0; transition: opacity 0.3s var(--ease); pointer-events: none;
+}
+.album-info__title { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--light-green); line-height: 1.35; }
+.album-info__text { font-size: 12.5px; font-weight: 500; line-height: 1.45; max-width: 36ch; }
+.album-card--featured .album-info { padding: 22px 24px; gap: 8px; }
+.album-card--featured .album-info__title { font-size: 12px; }
+.album-card--featured .album-info__text { font-size: 15px; }
+.album-card:hover .album-info, .album-card:focus-visible .album-info { opacity: 1; }
+@media (max-width: 1023px) { .album-info { display: none; } }
+
 /* ---------- Partners ("They trusted us") — continuous marquee ---------- */
 .partners { flex: none; display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .partners__label {
