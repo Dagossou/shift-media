@@ -35,6 +35,18 @@
     });
   });
 
+  /* ---------- Tilted colour plate behind cards (subtle, alternating green / orange) ---------- */
+  function tiltWrap(node, i, extra) {
+    var w = document.createElement('div');
+    w.className = 'tilt tilt--' + (i % 2 ? 'orange' : 'green') + (extra ? ' ' + extra : '');
+    node.parentNode.insertBefore(w, node);
+    w.appendChild(node);
+    return w;
+  }
+  document.querySelectorAll('.video-grid > .card').forEach(function (c, i) { tiltWrap(c, i); });
+  var vf = document.querySelector('.page--video .featured');
+  if (vf) tiltWrap(vf, 1, 'tilt--featured');
+
   /* ---------- Photography page ---------- */
   var albums = window.SHIFT_ALBUMS;
   var grid = document.getElementById('album-grid');
@@ -57,6 +69,7 @@
     b.setAttribute('aria-label', 'Open album ' + a.title);
     b.addEventListener('click', function () { openAlbum(a); });
     grid.appendChild(b);
+    tiltWrap(b, grid.children.length - 1, a.featured ? 'tilt--featured' : '');
   });
 
   /* ---------- Album popup ---------- */
