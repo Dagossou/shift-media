@@ -369,5 +369,189 @@ window.SHIFT_ALBUMS = [
     "h": 753
    }
   ]
+ },
+ {
+  "slug": "ctbg-conference-and-outing-2026",
+  "title": "CTBG Conference and Outing 2026",
+  "year": "2026",
+  "featured": false,
+  "cover": "/assets/albums/ctbg-conference-and-outing-2026/12.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/01.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/02.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/03.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/04.jpg",
+    "w": 1067,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/05.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/08.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/09.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/07.jpg",
+    "w": 1067,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/10.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/11.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/12.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/13.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/14.jpg",
+    "w": 1156,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/15.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/16.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/18.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/19.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/17.jpg",
+    "w": 1241,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/20.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/22.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/23.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/24.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/21.jpg",
+    "w": 1571,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/25.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/26.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/27.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/28.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/29.jpg",
+    "w": 1156,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/30.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/31.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/32.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/33.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/34.jpg",
+    "w": 1067,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ctbg-conference-and-outing-2026/35.jpg",
+    "w": 1600,
+    "h": 1156
+   }
+  ]
  }
 ];

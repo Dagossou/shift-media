@@ -225,7 +225,7 @@ button { font: inherit; cursor: pointer; }
 .card--contribution.is-open .badge { opacity: 0; }
 
 /* ---------- Photography ---------- */
-.album-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; flex: none; }
+.album-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; flex: none; }
 .album-card { height: 200px; width: 100%; border: 0; padding: 0; text-align: left; cursor: pointer; }
 .album-card .card__label { padding: 14px 16px 16px; }
 .album-card .card__title { font-size: 15px; line-height: 1.25; }
@@ -356,6 +356,7 @@ body.no-scroll { overflow: hidden; }
   .featured .card__label { padding: 24px 26px; }
   .featured .card__title { font-size: 28px; }
   .album-grid { grid-template-columns: 1fr 1fr; }
+  .album-grid .album-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .footer__tagline { min-width: 100%; }
   .modal { padding: 32px 20px; }
   .modal__panel { padding: 22px 22px; }
