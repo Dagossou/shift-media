@@ -1049,3 +1049,12 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__submit-wrap:hover::before { opacity: 1; transform: rotate(-6deg) translateY(-3px); }
 .cg__submit:hover { transform: translateY(-6px); background: var(--orange-dark); box-shadow: 0 16px 30px rgba(0,0,0,.35); }
 .cg__submit:active { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.3); }
+/* Contact: lighter Shift blue */
+.contact--glass { background: linear-gradient(135deg, #2a6aa0 0%, var(--blue) 55%, #1a4468 100%); }
+.cg__blob--blue { background: #3d84c2; opacity: .7; }
+.cg__blob--green { opacity: .65; }
+.cg__blob--orange { opacity: .55; }
+.cg__form { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.22); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+.cg__field span { color: rgba(255, 255, 255, 0.75); }
+.cg__field input, .cg__field textarea { border-bottom-color: rgba(255, 255, 255, 0.35); }
+.cg__text { color: rgba(255, 255, 255, 0.88); }
