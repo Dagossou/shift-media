@@ -791,3 +791,60 @@ a.contact__tile:hover { background: rgba(255, 255, 255, 0.16); border-color: var
   .contact__v { font-size: 15px; }
   .hero-video__cta { left: 12px; bottom: 12px; font-size: 12.5px; }
 }
+
+/* ---------- Home v3 adjustments ---------- */
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 5px; font-size: 14px; font-weight: 700; border: 1.5px solid transparent; transition: background 0.25s var(--ease), color 0.25s var(--ease), border-color 0.25s var(--ease), transform 0.25s var(--ease); white-space: nowrap; }
+.btn:hover { transform: translateY(-2px); }
+.btn--orange { background: var(--orange); color: #fff; }
+.btn--orange:hover { background: var(--orange-dark); }
+.btn--blue { background: var(--blue); color: #fff; }
+.btn--blue:hover { background: var(--green); }
+.btn--outline { background: transparent; color: var(--blue); border-color: rgba(31, 78, 121, 0.35); }
+.btn--outline:hover { border-color: var(--blue); background: var(--blue); color: #fff; }
+.header__nav { gap: 10px; }
+
+/* Bigger breathing room between sections */
+.page--home .partners { margin-top: 26px; }
+.page--home-more { --gap: 120px; padding-top: 110px; }
+
+/* Mission & vision: compact, no icons */
+.purpose__item { padding: 24px 28px 26px; }
+.purpose__label { margin-bottom: 8px; }
+.purpose__text { font-size: 16px; line-height: 1.55; }
+.purpose__word { font-size: clamp(60px, 7vw, 96px); bottom: -16px; }
+
+/* People: smaller portraits, more space */
+.page--home-more .team__grid { grid-template-columns: repeat(6, minmax(0, 150px)); justify-content: space-between; gap: 28px; }
+
+/* Contact v3: photo + details card */
+.contact { display: grid; grid-template-columns: 1fr 1.1fr; gap: 0; padding: 0; color: var(--blue); background: #fff; animation: none; align-items: stretch; }
+.contact__media { position: relative; min-height: 380px; }
+.contact__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.contact__media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(13, 33, 56, 0.6), rgba(13, 33, 56, 0) 55%); }
+.contact__badge { position: absolute; left: 20px; bottom: 18px; z-index: 1; font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #fff; }
+.contact__body { padding: 44px 48px; display: flex; flex-direction: column; justify-content: center; }
+.contact__eyebrow { color: var(--green); }
+.contact__title { font-size: clamp(26px, 2.6vw, 36px); line-height: 1.15; color: var(--blue); }
+.contact__title span { color: var(--orange-dark); }
+.contact__lead { color: var(--grey); font-size: 15.5px; line-height: 1.55; }
+.contact__list { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid rgba(31, 78, 121, 0.12); }
+.contact__list li { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(31, 78, 121, 0.12); }
+.contact__k { font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--grey); }
+.contact__v { font-size: 16px; font-weight: 700; color: var(--blue); }
+a.contact__v:hover { color: var(--green); }
+.contact__buttons { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
+.contact__buttons .btn { padding: 12px 22px; font-size: 15px; }
+.contact__glow { display: none; }
+@media (max-width: 1023px) {
+  .page--home-more { --gap: 80px; padding-top: 72px; }
+  .page--home-more .team__grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .contact { grid-template-columns: 1fr; }
+  .contact__media { min-height: 240px; }
+  .contact__body { padding: 30px 26px; }
+}
+@media (max-width: 639px) {
+  .page--home-more { --gap: 64px; }
+  .page--home-more .team__grid { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .header__nav .btn { padding: 7px 11px; font-size: 12.5px; }
+  .contact__body { padding: 24px 20px; }
+}
