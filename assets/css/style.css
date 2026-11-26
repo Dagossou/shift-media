@@ -357,10 +357,10 @@ button.card { font: inherit; color: inherit; border: 0; padding: 0; width: 100%;
 .partners__track li { flex: none; display: flex; align-items: center; }
 .partners__track img {
   height: calc(var(--h, 40px) * 0.8); width: auto; max-width: 150px; object-fit: contain;
-  filter: grayscale(1); opacity: 0.75;
+  filter: none; opacity: 1;
   transition: filter 0.3s var(--ease), opacity 0.3s var(--ease), transform 0.3s var(--ease);
 }
-.partners__track img:hover { filter: none; opacity: 1; transform: scale(1.08); }
+.partners__track img:hover { transform: scale(1.08); }
 @keyframes partners-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - var(--gap) / 2)); } }
 @media (max-width: 1023px) {
   .partners__track { --gap: 44px; animation-duration: 26s; }
