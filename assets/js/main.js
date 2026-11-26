@@ -38,7 +38,6 @@
   /* ---------- Photography page ---------- */
   var albums = window.SHIFT_ALBUMS;
   var grid = document.getElementById('album-grid');
-  var featuredSlot = document.getElementById('featured-album');
   if (!albums || !grid) return;
 
   function cardHTML(a, featured) {
@@ -47,14 +46,9 @@
       '<span class="card__cue">' + (featured ? 'View album →' : '→') + '</span></span>';
   }
 
-  albums.forEach(function (a) {
-    if (a.featured && featuredSlot) {
-      featuredSlot.innerHTML = cardHTML(a, true);
-      featuredSlot.setAttribute('aria-label', 'Open album ' + a.title);
-      featuredSlot.addEventListener('click', function () { openAlbum(a); });
-      return;
-    }
-    var b = el('button', 'card album-card', cardHTML(a, false));
+  var ordered = albums.filter(function (a) { return a.featured; }).concat(albums.filter(function (a) { return !a.featured; }));
+  ordered.forEach(function (a) {
+    var b = el('button', 'card album-card' + (a.featured ? ' album-card--featured' : ''), cardHTML(a, a.featured));
     b.type = 'button';
     b.setAttribute('aria-label', 'Open album ' + a.title);
     b.addEventListener('click', function () { openAlbum(a); });
