@@ -1109,3 +1109,14 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__pill { border-radius: var(--r-md); }
 .cg__submit, .cg__submit-wrap::before { border-radius: var(--r-lg); }
 @media (max-width: 639px) { .contact--glass { border-radius: var(--r-xl); } }
+/* Contact form card: smaller (narrower, hugs its content) */
+@media (min-width: 1024px) { .contact--glass { grid-template-columns: 1.25fr 1fr; } }
+.cg__form { align-self: center; padding: 16px 20px 14px; }
+.cg__form-title { font-size: 17px; }
+.cg__grid { gap: 2px 18px; }
+.cg__field span { padding-top: 6px; }
+.cg__field input, .cg__field textarea { padding: 4px 0 6px; }
+.cg__field textarea { height: 30px; }
+.cg__submit-wrap { margin-top: 12px; }
+.cg__submit { padding: 9px 22px; font-size: 13.5px; }
+.cg__note:empty { display: none; }
