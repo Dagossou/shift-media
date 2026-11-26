@@ -6,7 +6,7 @@ window.SHIFT_ALBUMS = [
   "title": "Fire Praise 2026",
   "year": "2026",
   "featured": true,
-  "cover": "/assets/albums/fire-praise-2026/21.jpg",
+  "cover": "/assets/albums/fire-praise-2026/28.jpg",
   "photos": [
    {
     "src": "/assets/albums/fire-praise-2026/01.jpg",
@@ -167,7 +167,7 @@ window.SHIFT_ALBUMS = [
   "title": "Catalyze Launching Benin 2025",
   "year": "2025",
   "featured": false,
-  "cover": "/assets/albums/catalyze-launching-benin-2025/06.jpg",
+  "cover": "/assets/albums/catalyze-launching-benin-2025/07.jpg",
   "photos": [
    {
     "src": "/assets/albums/catalyze-launching-benin-2025/01.jpg",
@@ -294,7 +294,7 @@ window.SHIFT_ALBUMS = [
   "title": "CTBG On Field 2025",
   "year": "2025",
   "featured": false,
-  "cover": "/assets/albums/ctbg-on-field-2025/04.jpg",
+  "cover": "/assets/albums/ctbg-on-field-2025/01.jpg",
   "photos": [
    {
     "src": "/assets/albums/ctbg-on-field-2025/01.jpg",
@@ -526,7 +526,7 @@ window.SHIFT_ALBUMS = [
   "title": "OneHope Regional Conference 2026",
   "year": "2026",
   "featured": false,
-  "cover": "/assets/albums/onehope-regional-conference-2026/01.jpg",
+  "cover": "/assets/albums/onehope-regional-conference-2026/04.jpg",
   "photos": [
    {
     "src": "/assets/albums/onehope-regional-conference-2026/01.jpg",
