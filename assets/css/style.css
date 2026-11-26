@@ -948,3 +948,4 @@ a.contact__chip:hover { transform: translateY(-3px); box-shadow: var(--shadow); 
 .contact__ic--blue { background: var(--blue); }
 @media (max-width: 1023px) { .page--home-more { --gap: 56px; padding-top: 60px; } }
 @media (max-width: 639px) { .contact--v4 { padding: 28px 18px; } .contact__chip { width: 100%; } .page--home .partners { margin-top: 32px; } }
+@media (min-width: 1024px) { .page--home .hero-tilt { height: max(360px, 56vh); } }
