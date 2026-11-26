@@ -1075,3 +1075,9 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .header { margin-top: 14px; }
 @media (max-width: 1023px) { .header { margin-top: 12px; } }
 @media (max-width: 639px) { .header { margin-top: 8px; } }
+
+/* Home hero video box: true 16:9 on every screen */
+@media (min-width: 1024px) {
+  .page--home .hero-tilt { height: auto; flex: none; min-height: 0; }
+}
+.page--home .hero-tilt > .hero-video { flex: none; width: 100%; aspect-ratio: 16 / 9; min-height: 0; }
