@@ -896,3 +896,25 @@ a.contact__v:hover { color: var(--green); }
   .contact__list { grid-template-columns: 1fr; }
   .page--home .header { margin-bottom: 4px; }
 }
+
+/* ---------- Hero video hover (same as Library cards) ---------- */
+.hero-tilt { position: relative; flex: 1 1 auto; min-height: 260px; display: flex; isolation: isolate; }
+.hero-tilt > .hero-video { flex: 1 1 auto; min-height: 0; transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.hero-tilt::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: var(--r-xl); background: linear-gradient(135deg, var(--green), #2f9a1e);
+  opacity: 0; transform: rotate(0deg) scale(0.98); transform-origin: 50% 100%; transition: transform 0.45s var(--ease), opacity 0.3s var(--ease); }
+.hero-tilt:hover::before { opacity: 1; transform: rotate(-1.4deg) translateY(-6px); }
+.hero-tilt:hover > .hero-video { transform: translateY(-10px); box-shadow: var(--shadow-hover); }
+.hero-tilt:hover .hero-video__frame { transform: translate(-50%, -50%) scale(1.04); }
+.hero-video__frame { transition: transform 0.4s var(--ease); }
+@media (min-width: 1024px) { .page--home .hero-tilt { flex: 1 1 0; min-height: 220px; } }
+@media (max-width: 1023px) { .hero-tilt { flex: none; min-height: 0; } .hero-tilt > .hero-video { aspect-ratio: 16 / 9; } }
+
+/* ---------- Equipment: smaller cards, photos ---------- */
+.gear-grid { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 16px; }
+.gear__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s var(--ease); }
+.gear:hover .gear__media img { transform: scale(1.06); }
+.gear__name { font-size: 13px; }
+.credits { flex: none; font-size: 12px; color: var(--grey); }
+.credits summary { cursor: pointer; font-weight: 700; color: var(--blue); }
+.credits ul { margin: 8px 0 0; padding-left: 18px; line-height: 1.6; }
+.credits a { text-decoration: underline; }
