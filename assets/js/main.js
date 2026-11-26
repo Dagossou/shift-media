@@ -115,7 +115,7 @@
 
   function layout() {
     if (!current) return;
-    var width = mosaic.clientWidth;
+    var width = Math.floor(mosaic.clientWidth) - 1;
     var vw = window.innerWidth;
     var gap = vw < 640 ? 8 : 12;
     var target = vw < 640 ? 150 : vw < 1024 ? 190 : 230;

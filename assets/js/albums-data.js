@@ -560,7 +560,7 @@ window.SHIFT_ALBUMS = [
   "title": "Influence Academy Master Class II",
   "year": "2026",
   "featured": false,
-  "cover": "/assets/albums/influence-academy-master-class-ii/30.jpg",
+  "cover": "/assets/albums/influence-academy-master-class-ii/01.jpg",
   "photos": [
    {
     "src": "/assets/albums/influence-academy-master-class-ii/01.jpg",
@@ -754,7 +754,7 @@ window.SHIFT_ALBUMS = [
   "title": "Influence Academy Master Class III",
   "year": "2026",
   "featured": false,
-  "cover": "/assets/albums/influence-academy-2026/17.jpg",
+  "cover": "/assets/albums/influence-academy-2026/09.jpg",
   "photos": [
    {
     "src": "/assets/albums/influence-academy-2026/03.jpg",

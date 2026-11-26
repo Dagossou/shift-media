@@ -29,6 +29,17 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+/* No horizontal scrollbar anywhere; slim modern vertical scrollbar */
+html, body { overflow-x: hidden; }
+html { scrollbar-width: thin; scrollbar-color: var(--blue) transparent; }
+::-webkit-scrollbar { width: 8px; height: 0; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--blue), var(--green));
+  border: 2px solid transparent; background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, var(--orange), var(--blue)); background-clip: padding-box; border: 2px solid transparent; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
@@ -295,7 +306,7 @@ body.no-scroll { overflow: hidden; }
 }
 .round-btn svg { width: 16px; height: 16px; }
 .round-btn:hover { background: var(--green); }
-.modal__scroll { overflow-y: auto; overscroll-behavior: contain; margin-right: -8px; padding-right: 8px; }
+.modal__scroll { overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: var(--blue) transparent; margin-right: -14px; padding-right: 6px; }
 .mosaic { display: flex; flex-direction: column; gap: 12px; }
 .mosaic__row { display: flex; gap: 12px; }
 .mosaic__tile {
