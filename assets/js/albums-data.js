@@ -523,7 +523,7 @@ window.SHIFT_ALBUMS = [
  },
  {
   "slug": "onehope-regional-conference-2026",
-  "title": "OneHope Regional Conference 2026",
+  "title": "Coastal West Africa Regional Conference 2026",
   "year": "2026",
   "featured": false,
   "cover": "/assets/albums/onehope-regional-conference-2026/04.jpg",
@@ -565,7 +565,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "OneHope 2026",
-  "detail": "OneHope\u2019s regional conference in Benin, bringing partners together."
+  "detail": "OneHope\u2019s Coastal West Africa regional conference in Benin, bringing partners together."
  },
  {
   "slug": "influence-academy-master-class-ii",
