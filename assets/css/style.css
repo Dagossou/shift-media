@@ -14,7 +14,7 @@
 
   --page-w: 1120px;
   --pad-x: 160px;
-  --pad-top: 30px;
+  --pad-top: 18px;
   --pad-bottom: 40px;
   --gap: 32px;
 
@@ -59,12 +59,12 @@ button { font: inherit; cursor: pointer; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 54px;
+  height: 40px;
   flex: none;
-  margin-bottom: -10px; /* tighter space between logo and content */
+  margin-bottom: -16px; /* tighter space between logo and content */
 }
 .logo { display: block; transition: opacity 0s; }
-.logo img { height: 52px; width: auto; }
+.logo img { height: 38px; width: auto; }
 .logo:hover { opacity: 0.8; }
 .back {
   display: inline-flex;
@@ -337,9 +337,9 @@ body.no-scroll { overflow: hidden; }
    Tablet 640–1023px (Figma: 768 frames)
    ========================================================= */
 @media (max-width: 1023px) {
-  :root { --pad-x: 40px; --pad-top: 24px; --pad-bottom: 32px; --gap: 28px; }
-  .logo img { height: 48px; }
-  .header { height: 50px; margin-bottom: -10px; }
+  :root { --pad-x: 40px; --pad-top: 16px; --pad-bottom: 32px; --gap: 28px; }
+  .logo img { height: 34px; }
+  .header { height: 36px; margin-bottom: -14px; }
   .page { min-height: 0; }
   .headline, .headline--home { font-size: 40px; }
   .lead { font-size: 16px; }
@@ -371,9 +371,9 @@ body.no-scroll { overflow: hidden; }
    Phone <640px (Figma: 390 frames)
    ========================================================= */
 @media (max-width: 639px) {
-  :root { --pad-x: 20px; --pad-top: 18px; --pad-bottom: 24px; --gap: 24px; }
-  .logo img { height: 42px; }
-  .header { height: 44px; margin-bottom: -10px; }
+  :root { --pad-x: 20px; --pad-top: 14px; --pad-bottom: 24px; --gap: 24px; }
+  .logo img { height: 30px; }
+  .header { height: 34px; margin-bottom: -12px; }
   .back { padding: 8px 14px; font-size: 13px; }
   .headline, .headline--home { font-size: 30px; }
   .lead { font-size: 15px; }
