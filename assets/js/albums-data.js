@@ -557,7 +557,7 @@ window.SHIFT_ALBUMS = [
  },
  {
   "slug": "influence-academy-2026",
-  "title": "Influence Academy 2026",
+  "title": "Influence Academy Master Class III",
   "year": "2026",
   "featured": false,
   "cover": "/assets/albums/influence-academy-2026/17.jpg",
