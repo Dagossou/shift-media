@@ -160,7 +160,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Fire Praise 2026",
-  "detail": "A night of worship and praise: live music, choir and a packed, joyful crowd."
+  "detail": "A night of worship: live music, choir and a packed, joyful crowd."
  },
  {
   "slug": "catalyze-launching-benin-2025",
@@ -226,7 +226,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Catalyze 2025",
-  "detail": "The launch of Catalyze in Benin by OneHope in 2025."
+  "detail": "The launch of Catalyze in Benin by OneHope."
  },
  {
   "slug": "missional-impact-conference-2026",
@@ -287,7 +287,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "MIC 2026",
-  "detail": "Missional Impact Conference 2026: talks, panels and exchanges between leaders."
+  "detail": "Talks, panels and exchanges between leaders."
  },
  {
   "slug": "ctbg-on-field-2025",
@@ -333,7 +333,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "CTBG 2025",
-  "detail": "CTBG on the field in 2025: visits to communities, children and local churches."
+  "detail": "Field visits to communities, children and local churches."
  },
  {
   "slug": "ctbg-conference-and-outing-2026",
@@ -519,7 +519,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "CTBG 2026",
-  "detail": "CTBG Conference and Outing 2026: sessions, workshops and moments shared together."
+  "detail": "Sessions, workshops and moments shared together."
  },
  {
   "slug": "onehope-regional-conference-2026",
@@ -565,7 +565,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "OneHope 2026",
-  "detail": "OneHope Regional Conference 2026: partners from across the region gathered in Lom\u00e9."
+  "detail": "Partners from across the region gathered in Lom\u00e9."
  },
  {
   "slug": "influence-academy-master-class-ii",
@@ -761,7 +761,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass II",
-  "detail": "Influence Academy Master Class II (June 2026): training for influencers and content creators."
+  "detail": "June 2026 training for influencers and content creators."
  },
  {
   "slug": "influence-academy-2026",
@@ -892,6 +892,6 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass III",
-  "detail": "Influence Academy Master Class III (September 2026): training for influencers and content creators."
+  "detail": "September 2026 training for influencers and content creators."
  }
 ];
