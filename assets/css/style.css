@@ -848,3 +848,27 @@ a.contact__v:hover { color: var(--green); }
   .header__nav .btn { padding: 7px 11px; font-size: 12.5px; }
   .contact__body { padding: 24px 20px; }
 }
+
+/* ---------- Home v4 spacing ---------- */
+.page--home .partners { margin-top: 56px; }
+.page--home-more { --gap: 84px; padding-top: 92px; }
+.page--home-more .team__grid { grid-template-columns: repeat(6, minmax(0, 132px)); justify-content: space-between; gap: 40px; }
+.contact__media { min-height: 0; }
+.contact__body { padding: 30px 40px; }
+.contact__title { font-size: clamp(22px, 2.2vw, 30px); }
+.contact__lead { margin-top: 8px; font-size: 14.5px; }
+.contact__list { margin-top: 14px; }
+.contact__list li { padding: 9px 0; }
+.contact__buttons { margin-top: 16px; }
+.contact__buttons .btn { padding: 10px 20px; font-size: 14px; }
+@media (max-width: 1023px) {
+  .page--home-more { --gap: 64px; padding-top: 64px; }
+  .page--home-more .team__grid { grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .contact__media { min-height: 200px; }
+}
+@media (max-width: 639px) {
+  .page--home .partners { margin-top: 36px; }
+  .page--home-more { --gap: 52px; }
+  .page--home-more .team__grid { grid-template-columns: 1fr 1fr; gap: 22px; }
+  .contact__body { padding: 22px 20px; }
+}
