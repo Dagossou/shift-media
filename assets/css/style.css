@@ -953,3 +953,50 @@ a.contact__chip:hover { transform: translateY(-3px); box-shadow: var(--shadow); 
 .page--home .partners { margin-top: 30px; }
 .page--home-more { padding-top: 60px; }
 @media (min-width: 1024px) { .page--home { min-height: 0 !important; } }
+
+/* ---------- Home v7 ---------- */
+/* Section titles: colour change + bounce on hover */
+.section-title { cursor: default; transition: color 0.25s var(--ease); }
+.section-title::after { transition: flex-basis 0.35s var(--ease); }
+.section-title:hover { color: var(--green); animation: title-bounce 0.55s var(--ease); }
+.section-title:hover::after { flex-basis: 96px; }
+@keyframes title-bounce { 0% { transform: translateY(0); } 30% { transform: translateY(-6px); } 55% { transform: translateY(0); } 75% { transform: translateY(-2px); } 100% { transform: translateY(0); } }
+
+/* Mission & vision v2: editorial rows */
+.pv { border-top: 1px solid rgba(31, 78, 121, 0.15); }
+.pv__row { position: relative; display: grid; grid-template-columns: 220px 1fr; align-items: center; gap: 32px; padding: 22px 8px; border-bottom: 1px solid rgba(31, 78, 121, 0.15); overflow: hidden; isolation: isolate; }
+.pv__row::before { content: ''; position: absolute; inset: 0; z-index: -1; transform: scaleX(0); transform-origin: left; transition: transform 0.45s var(--ease); }
+.pv__row--mission::before { background: linear-gradient(90deg, rgba(11, 120, 0, 0.08), rgba(11, 120, 0, 0)); }
+.pv__row--vision::before { background: linear-gradient(90deg, rgba(251, 133, 0, 0.1), rgba(251, 133, 0, 0)); }
+.pv__row:hover::before { transform: scaleX(1); }
+.pv__label { margin: 0; font-size: 34px; font-weight: 900; letter-spacing: -0.02em; line-height: 1; transition: transform 0.35s var(--ease); }
+.pv__row--mission .pv__label { color: var(--green); }
+.pv__row--vision .pv__label { color: var(--orange-dark); }
+.pv__row:hover .pv__label { transform: translateX(10px); }
+.pv__text { margin: 0; font-size: 16.5px; line-height: 1.6; color: var(--blue); max-width: 70ch; }
+
+/* People → contact: more space */
+.page--home-more .contact { margin-top: 48px; }
+
+/* Contact v5: blue split band, big lines with arrows */
+.contact--v5 { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 28px 56px; padding: 40px 48px; text-align: left; border: 0; color: #fff; background: var(--blue); border-radius: var(--r-xl); animation: none; overflow: hidden; position: relative; isolation: isolate; }
+.contact--v5::after { content: ''; position: absolute; right: -80px; top: -80px; width: 260px; height: 260px; border-radius: 50%; border: 36px solid rgba(251, 133, 0, 0.9); z-index: -1; }
+.contact--v5::before { content: ''; position: absolute; left: -60px; bottom: -90px; width: 200px; height: 200px; border-radius: 50%; background: rgba(11, 120, 0, 0.75); z-index: -1; }
+.contact--v5 .contact__eyebrow { margin: 0 0 10px; color: #ffb257; }
+.contact--v5 .contact__title { margin: 0; font-size: clamp(22px, 2.2vw, 30px); line-height: 1.25; color: #fff; }
+.contact__right { display: flex; flex-direction: column; }
+.contact__line { display: grid; grid-template-columns: 70px 1fr auto; align-items: baseline; gap: 12px; padding: 13px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.22); color: #fff; }
+.contact__line:first-child { border-top: 1px solid rgba(255, 255, 255, 0.22); }
+.contact__line small { font-size: 10.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255, 255, 255, 0.6); }
+.contact__line span { font-size: 17px; font-weight: 700; }
+.contact__line i { font-style: normal; font-size: 18px; transition: transform 0.25s var(--ease); }
+a.contact__line:hover span { color: #ffb257; }
+a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
+@media (max-width: 1023px) {
+  .pv__row { grid-template-columns: 1fr; gap: 8px; }
+  .pv__label { font-size: 28px; }
+  .contact--v5 { grid-template-columns: 1fr; padding: 32px 26px; }
+}
+@media (max-width: 639px) { .contact--v5 { padding: 28px 20px; } .contact__line span { font-size: 15px; } .contact__line { grid-template-columns: 58px 1fr auto; } }
+.contact--v5::before { left: -110px; bottom: -130px; width: 190px; height: 190px; background: rgba(11, 120, 0, 0.55); }
+.contact--v5::after { right: -110px; top: -110px; width: 240px; height: 240px; border-width: 30px; border-color: rgba(251, 133, 0, 0.75); }
