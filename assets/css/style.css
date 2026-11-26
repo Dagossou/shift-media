@@ -952,3 +952,4 @@ a.contact__chip:hover { transform: translateY(-3px); box-shadow: var(--shadow); 
 @media (min-width: 1024px) { .page--home .hero-tilt { height: max(330px, 50vh); } }
 .page--home .partners { margin-top: 30px; }
 .page--home-more { padding-top: 60px; }
+@media (min-width: 1024px) { .page--home { min-height: 0 !important; } }
