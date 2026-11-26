@@ -1084,3 +1084,5 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 /* Hero a bit shorter (video still fills the box) */
 .page--home .hero-tilt > .hero-video { aspect-ratio: 2.3 / 1; }
 .page--home .hero-video__frame { width: 100%; height: auto; min-height: 0; }
+/* Hero video: same shape, scaled down proportionally and centred */
+@media (min-width: 640px) { .page--home .hero-tilt { width: 85%; margin-left: auto; margin-right: auto; } }
