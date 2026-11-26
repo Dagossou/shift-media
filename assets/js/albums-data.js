@@ -290,6 +290,107 @@ window.SHIFT_ALBUMS = [
   "detail": "Talks, panels and exchanges between leaders in Lom\u00e9."
  },
  {
+  "slug": "afis-2023",
+  "title": "Africa Financial Industry Summit 2023",
+  "year": "2023",
+  "featured": false,
+  "cover": "/assets/albums/afis-2023/05.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/afis-2023/02.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/afis-2023/03.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/04.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/05.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/07.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/08.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/afis-2023/01.jpg",
+    "w": 1155,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/afis-2023/09.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/10.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/afis-2023/11.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/afis-2023/12.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/afis-2023/13.jpg",
+    "w": 1600,
+    "h": 1087
+   },
+   {
+    "src": "/assets/albums/afis-2023/15.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/afis-2023/16.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/afis-2023/17.jpg",
+    "w": 1600,
+    "h": 1305
+   },
+   {
+    "src": "/assets/albums/afis-2023/14.jpg",
+    "w": 1156,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/afis-2023/18.jpg",
+    "w": 1600,
+    "h": 1156
+   }
+  ],
+  "short": "AFIS 2023",
+  "detail": "Africa\u2019s financial leaders gathered for the Africa Financial Industry Summit."
+ },
+ {
   "slug": "ctbg-on-field-2025",
   "title": "CTBG On Field 2025",
   "year": "2025",
@@ -565,7 +666,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "OneHope 2026",
-  "detail": "OneHope\u2019s Coastal West Africa regional conference in Benin, bringing partners together."
+  "detail": "OneHope\u2019s regional conference in Benin, bringing partners together."
  },
  {
   "slug": "influence-academy-master-class-ii",
@@ -761,7 +862,7 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass II",
-  "detail": "Togo, June 2026. Inspiring speakers help young people grow their skills and leadership."
+  "detail": "Togo, June 2026. Speakers help young people grow their leadership."
  },
  {
   "slug": "influence-academy-2026",
@@ -892,6 +993,339 @@ window.SHIFT_ALBUMS = [
    }
   ],
   "short": "Masterclass III",
-  "detail": "Togo, September 2026. Inspiring speakers help young people grow their skills and leadership."
+  "detail": "Togo, September 2026. Speakers help young people grow their leadership."
+ },
+ {
+  "slug": "ecobank-2024",
+  "title": "Ecobank 2024",
+  "year": "2024",
+  "featured": false,
+  "cover": "/assets/albums/ecobank-2024/12.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/ecobank-2024/01.jpg",
+    "w": 1600,
+    "h": 1038
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/02.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/03.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/04.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/05.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/07.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/08.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/09.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/10.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/11.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/12.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/13.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/14.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/15.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/16.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/17.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/18.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/19.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/20.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/21.jpg",
+    "w": 1600,
+    "h": 1374
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/23.jpg",
+    "w": 1600,
+    "h": 1306
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/22.jpg",
+    "w": 1409,
+    "h": 1600
+   },
+   {
+    "src": "/assets/albums/ecobank-2024/24.jpg",
+    "w": 1600,
+    "h": 1067
+   }
+  ],
+  "short": "Ecobank 2024",
+  "detail": "Panels, networking and an evening reception hosted by Ecobank."
+ },
+ {
+  "slug": "foni-2024",
+  "title": "FONi 2024",
+  "year": "2024",
+  "featured": false,
+  "cover": "/assets/albums/foni-2024/03.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/foni-2024/01.jpg",
+    "w": 1600,
+    "h": 1298
+   },
+   {
+    "src": "/assets/albums/foni-2024/02.jpg",
+    "w": 1600,
+    "h": 905
+   },
+   {
+    "src": "/assets/albums/foni-2024/03.jpg",
+    "w": 1600,
+    "h": 1375
+   },
+   {
+    "src": "/assets/albums/foni-2024/04.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/05.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/07.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/08.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/09.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/10.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/foni-2024/11.jpg",
+    "w": 1600,
+    "h": 825
+   },
+   {
+    "src": "/assets/albums/foni-2024/12.jpg",
+    "w": 1600,
+    "h": 901
+   },
+   {
+    "src": "/assets/albums/foni-2024/13.jpg",
+    "w": 1600,
+    "h": 997
+   }
+  ],
+  "short": "FONi 2024",
+  "detail": "Talks and panels at FONi 2024, with a full room of participants."
+ },
+ {
+  "slug": "sia-2024",
+  "title": "Semaine de l\u2019Intelligence Artificielle 2024",
+  "year": "2024",
+  "featured": false,
+  "cover": "/assets/albums/sia-2024/03.jpg",
+  "photos": [
+   {
+    "src": "/assets/albums/sia-2024/01.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/02.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/03.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/sia-2024/04.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/sia-2024/05.jpg",
+    "w": 1600,
+    "h": 1155
+   },
+   {
+    "src": "/assets/albums/sia-2024/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/07.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/08.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/09.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/10.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/11.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/12.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/13.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/14.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/15.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/16.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "/assets/albums/sia-2024/17.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/sia-2024/18.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/19.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/20.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/21.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "/assets/albums/sia-2024/22.jpg",
+    "w": 1600,
+    "h": 1156
+   },
+   {
+    "src": "/assets/albums/sia-2024/23.jpg",
+    "w": 1600,
+    "h": 900
+   }
+  ],
+  "short": "SIA 2024",
+  "detail": "Togo\u2019s Artificial Intelligence Week: talks, panels and a packed hall."
  }
 ];
