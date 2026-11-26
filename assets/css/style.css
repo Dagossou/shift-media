@@ -634,4 +634,4 @@ body.no-scroll { overflow: hidden; }
 
 /* Team portraits: original photos, framed from the top so there is space above the head */
 .member:has(.member__img) .member__placeholder { display: none; }
-.member .member__img { object-fit: cover; object-position: 50% 24%; }
+.member .member__img { object-fit: cover; object-position: 50% 0%; }
