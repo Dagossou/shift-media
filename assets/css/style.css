@@ -1070,3 +1070,8 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
   .logo img { height: 34px; }
   .header__nav .btn, .header__nav .back { padding: 6px 10px; font-size: 11.5px; }
 }
+
+/* Header sits a bit lower, away from the top edge */
+.header { margin-top: 14px; }
+@media (max-width: 1023px) { .header { margin-top: 12px; } }
+@media (max-width: 639px) { .header { margin-top: 8px; } }
