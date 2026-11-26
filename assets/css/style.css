@@ -478,21 +478,31 @@ body.no-scroll { overflow: hidden; }
 .mv__text { margin: 0; font-size: 16px; line-height: 1.55; color: var(--blue); }
 .team { flex: none; display: flex; flex-direction: column; gap: 18px; }
 .team__title { margin: 0; font-size: 22px; font-weight: 900; color: var(--blue); }
-.team__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px; }
-.member { position: relative; display: flex; flex-direction: column; border-radius: var(--r-md); background: #fff; box-shadow: var(--shadow); overflow: hidden; transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
-.member:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); }
-.member__photo { aspect-ratio: 4 / 4.2; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #dfe8f0, #c9d6e2); }
-.member__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; }
-.member__initials { font-size: 44px; font-weight: 900; color: rgba(31, 78, 121, 0.35); letter-spacing: 0.04em; }
-.member__body { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px 18px; flex: 1; }
-.member__name { margin: 0; font-size: 17px; font-weight: 800; color: var(--blue); }
-.member__role { margin: 0 0 14px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--green); }
-.member__bio { margin: 6px 0 12px; font-size: 13.5px; line-height: 1.5; color: var(--grey); flex: 1; }
-.member__link { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: var(--r-md); background: #0a66c2; color: #fff; font-size: 13px; font-weight: 700; transition: background 0.25s var(--ease); }
-.member__link svg { width: 14px; height: 14px; }
-.member__link:hover { background: var(--orange); }
+.team__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.member { aspect-ratio: 4 / 5; height: auto; }
+.member__placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #dfe8f0, #c3d2df); font-size: 54px; font-weight: 900; color: rgba(31, 78, 121, 0.3); letter-spacing: 0.04em; }
+.member .card__img { object-position: 50% 20%; }
+.member .card__label { padding: 14px 16px; }
+.member .card__title { font-size: 16px; }
+.member .card__cue svg { width: 14px; height: 14px; display: block; }
+.member__info {
+  position: absolute; inset: 0; z-index: 4;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; padding: 20px;
+  background: linear-gradient(180deg, rgba(13, 33, 56, 0.25) 0%, rgba(20, 52, 84, 0.7) 45%, rgba(13, 33, 56, 0.92) 100%);
+  color: #fff; opacity: 0; transition: opacity 0.3s var(--ease);
+}
+.member__name { font-size: 19px; font-weight: 800; line-height: 1.2; }
+.member__role { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--light-green); }
+.member__cta { margin-top: 12px; display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; padding: 7px 12px; border-radius: var(--r-md); background: #0a66c2; font-size: 12.5px; font-weight: 700; transition: background 0.25s var(--ease); }
+.member__cta svg { width: 13px; height: 13px; }
+.member:hover .member__info, .member:focus-visible .member__info { opacity: 1; }
+.member:hover .card__label, .member:focus-visible .card__label { opacity: 0; }
+.member .card__label { transition: opacity 0.25s var(--ease); }
+.member:hover .member__cta { background: var(--orange); }
+@media (max-width: 1023px) { .team__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 639px) { .team__grid { gap: 12px; } .member__info { padding: 12px; } .member__name { font-size: 15px; } .member__role { font-size: 10.5px; } .member__cta { font-size: 11px; padding: 6px 9px; } }
 @media (max-width: 1023px) { .mv { grid-template-columns: 1fr; } }
-@media (max-width: 639px) { .team__grid { grid-template-columns: 1fr 1fr; gap: 14px; } .member__initials { font-size: 32px; } .member__bio { font-size: 12.5px; } .nav-link { font-size: 13px; } .header__nav { gap: 12px; } }
+@media (max-width: 639px) { .nav-link { font-size: 13px; } .header__nav { gap: 12px; } }
 
 /* =========================================================
    Desktop: fill one screen, featured block takes the rest
