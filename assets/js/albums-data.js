@@ -6,7 +6,7 @@ window.SHIFT_ALBUMS = [
   "title": "Fire Praise 2026",
   "year": "2026",
   "featured": true,
-  "cover": "/assets/albums/fire-praise-2026/28.jpg",
+  "cover": "/assets/albums/fire-praise-2026/26.jpg",
   "photos": [
    {
     "src": "/assets/albums/fire-praise-2026/01.jpg",
@@ -294,7 +294,7 @@ window.SHIFT_ALBUMS = [
   "title": "CTBG On Field 2025",
   "year": "2025",
   "featured": false,
-  "cover": "/assets/albums/ctbg-on-field-2025/01.jpg",
+  "cover": "/assets/albums/ctbg-on-field-2025/07.jpg",
   "photos": [
    {
     "src": "/assets/albums/ctbg-on-field-2025/01.jpg",
@@ -768,7 +768,7 @@ window.SHIFT_ALBUMS = [
   "title": "Influence Academy Master Class III",
   "year": "2026",
   "featured": false,
-  "cover": "/assets/albums/influence-academy-2026/09.jpg",
+  "cover": "/assets/albums/influence-academy-2026/23.jpg",
   "photos": [
    {
     "src": "/assets/albums/influence-academy-2026/03.jpg",
