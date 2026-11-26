@@ -478,7 +478,7 @@ body.no-scroll { overflow: hidden; }
 .mv__text { margin: 0; font-size: 16px; line-height: 1.55; color: var(--blue); }
 .team { flex: none; display: flex; flex-direction: column; gap: 18px; }
 .team__title { margin: 0; font-size: 22px; font-weight: 900; color: var(--blue); }
-.team__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.team__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 22px; }
 .member { aspect-ratio: 4 / 5; height: auto; }
 .member__placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #dfe8f0, #c3d2df); font-size: 54px; font-weight: 900; color: rgba(31, 78, 121, 0.3); letter-spacing: 0.04em; }
 .member .card__img { object-position: 50% 20%; }
