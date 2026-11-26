@@ -658,3 +658,45 @@ body.no-scroll { overflow: hidden; }
 .eq__group small { display: block; font-size: 12px; color: var(--grey); }
 @media (max-width: 639px) { .eq { padding: 0; align-items: stretch; } .eq__panel { border-radius: 0; max-height: none; padding: 20px 16px; } .eq__title { font-size: 22px; } }
 .eq[hidden] { display: none; }
+
+/* ---------- About section on the home page (below the partners) ---------- */
+.page--about-home { --gap: 28px; padding-top: 48px; }
+.page--about-home .about-intro .headline { font-size: 34px; }
+.page--about-home .team { gap: 14px; }
+.page--about-home .team__title { font-size: 20px; }
+.page--about-home .member { aspect-ratio: 3 / 4; }
+@media (min-width: 1024px) {
+  .page--about-home { height: auto !important; min-height: 0 !important; --footer-air: 40px; }
+  .page--home { padding-bottom: 28px; }
+}
+@media (max-width: 1023px) { .page--about-home { padding-top: 32px; } .page--about-home .about-intro .headline { font-size: 28px; } }
+
+/* ---------- Equipment page ---------- */
+.page--equipment { height: auto !important; }
+.eq-chips { flex: none; display: flex; flex-wrap: wrap; gap: 8px; }
+.eq-chip { border: 1px solid rgba(31, 78, 121, 0.2); background: #fff; color: var(--blue); padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; transition: background 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease); }
+.eq-chip:hover { border-color: var(--green); color: var(--green); }
+.eq-chip.is-active { background: var(--blue); border-color: var(--blue); color: #fff; }
+.gear-grid { flex: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 18px; }
+.gear { position: relative; aspect-ratio: 4 / 3.4; border-radius: var(--r-md); overflow: hidden; box-shadow: var(--shadow); background: #fff; transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease); outline: none; }
+.gear[hidden] { display: none; }
+.gear:hover, .gear:focus-visible { transform: translateY(-6px); box-shadow: var(--shadow-hover); }
+.gear__media { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.gear--green .gear__media { background: radial-gradient(120% 100% at 50% 20%, #eef6ec 0%, #d6e9d2 100%); color: var(--green); }
+.gear--orange .gear__media { background: radial-gradient(120% 100% at 50% 20%, #fff4e8 0%, #fbe0c2 100%); color: var(--orange-dark); }
+.gear__media img { width: 100%; height: 100%; object-fit: cover; }
+.gear__icon { width: 44%; height: auto; transition: transform 0.4s var(--ease); }
+.gear:hover .gear__icon { transform: scale(1.08); }
+.gear__label { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 10px 12px; background: linear-gradient(to top, rgba(255,255,255,.96), rgba(255,255,255,.8)); transition: opacity 0.25s var(--ease); }
+.gear__name { font-size: 14px; font-weight: 800; color: var(--blue); line-height: 1.25; }
+.gear__qty { flex: none; font-size: 12px; font-weight: 700; color: var(--grey); }
+.gear__info { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; padding: 14px; color: #fff;
+  background: linear-gradient(180deg, rgba(13,33,56,.35) 0%, rgba(20,52,84,.78) 40%, rgba(13,33,56,.95) 100%); opacity: 0; transition: opacity 0.3s var(--ease); }
+.gear:hover .gear__info, .gear:focus-visible .gear__info { opacity: 1; }
+.gear:hover .gear__label, .gear:focus-visible .gear__label { opacity: 0; }
+.gear__cat { font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--light-green); }
+.gear--orange .gear__cat { color: #ffb257; }
+.gear__title { font-size: 15px; font-weight: 800; line-height: 1.2; }
+.gear__title em { font-style: normal; font-weight: 600; opacity: .75; font-size: 12px; }
+.gear__desc { font-size: 12.5px; line-height: 1.45; color: rgba(255,255,255,.92); }
+@media (max-width: 639px) { .gear-grid { grid-template-columns: 1fr 1fr; gap: 12px; } .gear__name { font-size: 12.5px; } .gear__desc { font-size: 11.5px; } .gear__info { padding: 10px; } }
