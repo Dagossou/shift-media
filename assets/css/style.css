@@ -1103,3 +1103,9 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 .cg__submit-wrap { margin-top: 14px; }
 .cg__submit { padding: 10px 26px; font-size: 14px; }
 .cg__note { margin-top: 6px; }
+/* Contact box: smaller radii, matching the rest of the site */
+.contact--glass { border-radius: var(--r-xl); }
+.cg__form { border-radius: var(--r-lg); }
+.cg__pill { border-radius: var(--r-md); }
+.cg__submit, .cg__submit-wrap::before { border-radius: var(--r-lg); }
+@media (max-width: 639px) { .contact--glass { border-radius: var(--r-xl); } }
