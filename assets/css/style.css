@@ -1000,3 +1000,35 @@ a.contact__line:hover i { transform: translateX(6px); color: #ffb257; }
 @media (max-width: 639px) { .contact--v5 { padding: 28px 20px; } .contact__line span { font-size: 15px; } .contact__line { grid-template-columns: 58px 1fr auto; } }
 .contact--v5::before { left: -110px; bottom: -130px; width: 190px; height: 190px; background: rgba(11, 120, 0, 0.55); }
 .contact--v5::after { right: -110px; top: -110px; width: 240px; height: 240px; border-width: 30px; border-color: rgba(251, 133, 0, 0.75); }
+
+/* ---------- Contact: dark glass with colour blur ---------- */
+.contact--glass { position: relative; isolation: isolate; overflow: hidden; display: grid; grid-template-columns: 1fr 1.15fr; gap: 32px; align-items: stretch; padding: 22px; border-radius: 22px; color: #fff; text-align: left; border: 1px solid rgba(255,255,255,.08);
+  background: #121820; animation: none; box-shadow: 0 30px 60px rgba(13, 33, 56, 0.25); }
+.contact--glass::before, .contact--glass::after { content: none; }
+.cg__blob { position: absolute; z-index: -1; border-radius: 50%; filter: blur(70px); opacity: .85; }
+.cg__blob--blue { width: 520px; height: 360px; left: -140px; top: -180px; background: #1f8bd6; animation: mv-float-a 14s ease-in-out infinite alternate; }
+.cg__blob--green { width: 300px; height: 300px; left: -120px; bottom: -160px; background: var(--green); opacity: .7; }
+.cg__blob--orange { width: 320px; height: 240px; left: 32%; top: -150px; background: var(--orange); opacity: .55; animation: mv-float-b 16s ease-in-out infinite alternate; }
+.contact--glass::selection { background: var(--orange); }
+.cg__left { padding: 26px 22px 22px 34px; display: flex; flex-direction: column; justify-content: center; }
+.cg__pill { align-self: flex-start; padding: 7px 14px; border-radius: 8px; font-size: 13px; color: rgba(255,255,255,.85); background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+.cg__title { margin: 20px 0 14px; font-size: clamp(32px, 3.4vw, 46px); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; }
+.cg__text { margin: 0; max-width: 40ch; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,.78); }
+.cg__details { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px 28px; }
+.cg__details small { display: block; font-size: 10px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: 3px; }
+.cg__details a, .cg__details span { font-size: 15px; font-weight: 600; color: #fff; }
+.cg__details a:hover { color: #ffb257; }
+.cg__form { background: #0d1117; border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 26px 28px 24px; }
+.cg__form-title { margin: 0 0 14px; font-size: 22px; font-weight: 600; }
+.cg__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 22px; }
+.cg__field { display: flex; flex-direction: column; }
+.cg__field--full { grid-column: 1 / -1; }
+.cg__field span { font-size: 13px; color: rgba(255,255,255,.6); padding-top: 12px; }
+.cg__field input, .cg__field textarea { font: inherit; font-size: 15px; color: #fff; background: transparent; border: 0; border-bottom: 1px solid rgba(255,255,255,.18); padding: 8px 0 10px; outline: none; resize: none; transition: border-color .25s var(--ease); }
+.cg__field input:focus, .cg__field textarea:focus { border-bottom-color: #ffb257; }
+.cg__submit { margin-top: 20px; border: 0; padding: 12px 30px; border-radius: 8px; font-weight: 700; font-size: 15px; color: #0d1117; background: #ffb257; box-shadow: 0 3px 0 #c97a1c; transition: transform .2s var(--ease), box-shadow .2s var(--ease), background .2s var(--ease); }
+.cg__submit:hover { transform: translateY(-2px); box-shadow: 0 5px 0 #c97a1c; background: #ffc27a; }
+.cg__submit:active { transform: translateY(1px); box-shadow: 0 1px 0 #c97a1c; }
+.cg__note { margin: 10px 0 0; min-height: 1em; font-size: 13px; color: rgba(255,255,255,.7); }
+@media (max-width: 1023px) { .contact--glass { grid-template-columns: 1fr; } .cg__left { padding: 18px 8px 4px; } }
+@media (max-width: 639px) { .contact--glass { padding: 14px; border-radius: 16px; } .cg__grid { grid-template-columns: 1fr; } .cg__form { padding: 20px 18px; } }
