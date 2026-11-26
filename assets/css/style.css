@@ -250,10 +250,10 @@ button { font: inherit; cursor: pointer; }
 .album-card--featured .card__title { font-size: 32px; }
 .album-card--featured .card__cue { font-size: 15px; }
 @media (min-width: 1024px) {
-  .album-grid[data-count="7"] { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, minmax(130px, 1fr)); }
+  .album-grid[data-count="7"] { grid-template-columns: repeat(4, 1fr); }
   .album-grid[data-count="7"] .album-card:nth-child(6),
   .album-grid[data-count="7"] .album-card:nth-child(7) { grid-column: span 2; }
-  .album-grid[data-count="8"] { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, minmax(130px, 1fr)); }
+  .album-grid[data-count="8"] { grid-template-columns: repeat(4, 1fr); }
   .album-grid[data-count="8"] .album-card:nth-child(6) { grid-column: span 2; }
 }
 .album-card .card__cue { font-size: 14px; }
@@ -387,16 +387,16 @@ body.no-scroll { overflow: hidden; }
 /* =========================================================
    Desktop: fill one screen, featured block takes the rest
    ========================================================= */
-@media (min-width: 1024px) and (max-height: 840px) {
-  :root { --footer-air: 28px; }
-  .featured { min-height: 200px; }
-  .album-grid { grid-auto-rows: minmax(130px, 1fr); }
-  .album-card { min-height: 130px; }
-}
-@media (min-width: 1024px) and (max-height: 760px) {
-  .page { min-height: 0; }
-  .featured, .home-cards { flex: none; height: 300px; }
-  .album-grid { flex: none; height: 500px; }
+/* Desktop: every page fits exactly one screen (no scrolling), whatever the screen height */
+@media (min-width: 1024px) {
+  :root { --footer-air: clamp(12px, calc(100dvh - 824px), 76px); }
+  .page { height: 100vh; height: 100dvh; min-height: 560px; }
+  .home-cards { flex: 1 1 0; min-height: 140px; }
+  .home-cards .card { min-height: 0; }
+  .featured { flex: 1 1 0; min-height: 120px; }
+  .album-grid { flex: 1 1 0; min-height: 260px; grid-auto-rows: minmax(0, 1fr); }
+  .album-grid[data-count="7"], .album-grid[data-count="8"] { grid-template-rows: repeat(3, minmax(0, 1fr)); }
+  .album-card { min-height: 0; }
 }
 @media (min-width: 1024px) and (max-width: 1439px) {
   :root { --pad-x: clamp(40px, 11vw, 160px); }
