@@ -1215,3 +1215,5 @@ html.eqm-open { overflow: hidden; }
 /* Equipment filters stretch across the full content width */
 .eq-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .eq-chip { flex: 1 1 auto; text-align: center; }
+/* Contact form: keep fields transparent when the browser autofills them */
+.cg__field input:-webkit-autofill, .cg__field input:-webkit-autofill:hover, .cg__field input:-webkit-autofill:focus { -webkit-text-fill-color: #fff; caret-color: #fff; -webkit-box-shadow: 0 0 0 1000px transparent inset; box-shadow: 0 0 0 1000px transparent inset; transition: background-color 9999s ease-out 0s; }
