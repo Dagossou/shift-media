@@ -1215,3 +1215,24 @@ html.eqm-open { overflow: hidden; }
 /* Equipment filters stretch across the full content width */
 .eq-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .eq-chip { flex: 1 1 auto; text-align: center; }
+
+/* Team: role titles in orange */
+.member__role { color: var(--orange); }
+
+/* Back icon button: round, animated (top-right in header, bottom-right in footer) */
+.back-ic { position: relative; flex: none; display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--blue); color: #fff; box-shadow: 0 6px 16px rgba(31,78,121,.28); overflow: visible; isolation: isolate; transition: transform .3s var(--ease), background .3s var(--ease), box-shadow .3s var(--ease); }
+.back-ic svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; animation: back-nudge 2.6s var(--ease) infinite; }
+.back-ic::before { content: ''; position: absolute; inset: -5px; z-index: -1; border-radius: 50%; border: 2px solid var(--green); opacity: 0; transform: scale(.8); transition: opacity .3s var(--ease), transform .3s var(--ease); }
+.back-ic::after { content: ''; position: absolute; inset: 0; z-index: -2; border-radius: 50%; background: var(--blue); animation: back-pulse 2.6s ease-out infinite; }
+.back-ic:hover, .back-ic:focus-visible { background: var(--orange); transform: translateY(-4px) rotate(-8deg); box-shadow: 0 12px 24px rgba(251,133,0,.38); }
+.back-ic:hover::before, .back-ic:focus-visible::before { opacity: 1; transform: scale(1); }
+.back-ic:hover::after { background: var(--orange); }
+.back-ic:hover svg { animation: back-slide .7s var(--ease) infinite; }
+@keyframes back-nudge { 0%, 70%, 100% { transform: translateX(0); } 80% { transform: translateX(-4px); } 90% { transform: translateX(1px); } }
+@keyframes back-slide { 0% { transform: translateX(0); opacity: 1; } 45% { transform: translateX(-10px); opacity: 0; } 55% { transform: translateX(10px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+@keyframes back-pulse { 0% { transform: scale(1); opacity: .35; } 70%, 100% { transform: scale(1.55); opacity: 0; } }
+.footer__row { align-items: center; }
+.back-ic--foot { margin-left: 28px; }
+@media (max-width: 639px) { .back-ic { width: 34px; height: 34px; } .back-ic svg { width: 15px; height: 15px; } .back-ic--foot { margin-left: auto; } }
+.footer__row:has(.back-ic--foot) .footer__contacts { margin-left: auto; }
+@media (max-width: 639px) { .footer__row:has(.back-ic--foot) .footer__contacts { margin-left: 0; } }
