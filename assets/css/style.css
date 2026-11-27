@@ -1204,3 +1204,11 @@ html.eqm-open { overflow: hidden; }
 /* Equipment photos supplied already framed: shown as-is, no zoom */
 .gear .gear__media img.gear__img--fit { transform: none; }
 .gear:hover .gear__media img.gear__img--fit { transform: scale(1.05); }
+
+/* Team hover: name and role each on one line; smaller LinkedIn button */
+.member__name, .member__role { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.member__cta { margin-top: 6px; padding: 3px 6px; gap: 4px; font-size: 9px; }
+.member__cta svg { width: 10px; height: 10px; }
+.member__cta .cta-long { display: none; }
+.member__role { text-transform: none; letter-spacing: 0; }
+.member__info { padding-left: 8px; padding-right: 8px; }
